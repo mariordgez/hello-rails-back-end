@@ -7,7 +7,7 @@ module V1
 
     private
 
-    def random_message
+    def random_greeting
       Greeting.order('RANDOM()').first
     end
   end
